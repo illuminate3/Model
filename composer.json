@@ -1,0 +1,22 @@
+{
+    "name": "illuminate3/model",
+    "description": "",
+    "authors": [
+        {
+            "name": "Boy Hagemann",
+            "email": "boy@swis.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.x",
+        "zendframework/zend-code": "dev-master",
+		"way/generators": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illuminate3\\Model": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
